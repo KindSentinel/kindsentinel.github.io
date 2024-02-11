@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+body {
+    font-family: 'Protest Guerrilla', sans-serif;
+    background-color: #34495e;
+}
+
+.main-container {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.title {
+    margin: 2vh auto 0 auto;
+    font-size: 5rem;
+    text-shadow: 2px 3px 6px #879179;
+}
+
+.sub-title {
+    margin: 2vh auto;
+    font-size: 2rem;
+    color: #879179;
+    text-shadow: 2px 3px 6px black;
+}
+
+.about-container {
+    width: 60%;
+    padding: 0 2rem;
+    margin: 2vh auto;
+    border-radius: 2rem;
+    border: 4px solid black;
+}
+
+.about-title {
+    text-shadow: 1px 0px 6px rgba(135, 145, 121, 0.3);
+    font-size: 2.5rem;
+}
+
+.section {
+    text-align: start;
+    color: #879179;
+    font-size: 1.5rem;
+    text-shadow: 2px 3px 6px black;
+}
+
+a,
+a:visited {
+    color: black;
+    text-decoration: none;
+    font-size: 5rem;
+}
+
+.social-wrapper {
+    display: flex;
+    justify-content: center;
+    flex: 2;
+}
+
+.about-social {
+    text-shadow: 1px 0px 6px rgba(135, 145, 121, 0.3);
+    font-size: 3rem;
+}
+
+.social-container {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 2rem;
+    padding: 0 2vw;
+    border: 4px solid black;
+}
+
+.social-link {
+    font-size: 3rem;
+    margin: 0 2vw;
+    transition: color 0.6s linear, transform 0.4s ease;
+}
+
+.social-link:hover {
+    transform: scale(1.4);
+}
+
+.twitter:hover {
+    color: #1DA1F2;
+}
+
+.insta:hover {
+    color: #C13584;
+}
+
+.youtube:hover {
+    color: #FF0000;
+}
+
+.telegram:hover {
+    color: #0088cc;
+}
+
+.email:hover {
+    color: #BB001B
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1000px) {
+    .about-container {
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    .title-img {
+        width: 50%;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .sub-title {
+        font-size: 20px;
+    }
+
+    .about-title {
+        font-size: 30px;
+    }
+
+    .section {
+        font-size: 15px;
+    }
+
+    .social-container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .social-wrapper {
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 0 0 20px 0;
+    }
+
+    .about-social {
+        font-size: 30px;
+    }
+
+}
