@@ -62,7 +62,7 @@ a:visited {
 }
 
 .about-social {
-    text-shadow: 1px 0px 6px rgba(135, 145, 121, 0.3);
+    text-shadow: 1px 0px 6px rgba(135, 145, 121, 0.5);
     font-size: 3rem;
 }
 
@@ -122,6 +122,8 @@ a:visited {
 
     .sub-title {
         font-size: 20px;
+        white-space: nowrap;
+        overflow: hidden;
     }
 
     .about-title {
@@ -139,12 +141,21 @@ a:visited {
 
     .social-wrapper {
         flex-wrap: wrap;
+        justify-content: center;
         gap: 20px;
         padding: 0 0 20px 0;
     }
 
     .about-social {
         font-size: 30px;
+    }
+
+
+    .social-link {
+        font-size: 3rem;
+        margin: 0 2vw;
+        transition: color 0.6s linear, transform 0.4s ease;
+        flex-basis: calc(33.33% - 20px);
     }
 
 }
