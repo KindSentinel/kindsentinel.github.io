@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Bitcoin",
+        "network": "BTC Network",
+        "address": "bc1q7sjantmvh4fpl7vsxhz6qnc24uyycj8aa4ntxn"     
+    },
+    {
+        "name": "Ethereum",
+        "network": "ETH Network",
+        "address": "0x1c9Db66a58F88fD3E862C8DCAeF04628fD932246"
+    },
+    {
+        "name": "Tron",
+        "network": "TRX Network",
+        "address": "TUsQeCT5r3hwdB9Jp6EBkir8ei4MG8Uq62"
+    },
+    {
+        "name": "USDT Tron",
+        "network": "TRX Network",
+        "address": "TUsQeCT5r3hwdB9Jp6EBkir8ei4MG8Uq62"
+    },
+    {
+        "name": "Lite Coin",
+        "network": "LTC Network",
+        "address": "ltc1qgj58yjcs0yt4k4e7v32ec5x0eqrff30dvyh9ju"
+    },
+    {
+        "name": "Doge Coin",
+        "network": "DogeChain Network",
+        "address": "DFmyxfjq7J5zddvMMWRVrZwddA9Ktv85YD"
+    }
+]
